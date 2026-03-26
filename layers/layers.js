@@ -99,7 +99,7 @@ var group_Publicaao_nacional = new ol.layer.Group({
                                 fold: 'open',
                                 title: 'Publicaçao_nacional'});
 
-lyr_Limites_estados_simpl_0.setVisible(true);lyr_Acidentes_BR_Pontos_publi_1.setVisible(true);lyr_Acidentes_BR_contagem_simpl_publi_2.setVisible(true);lyr_Rodovia_base_simplificada_publi_3.setVisible(true);lyr_ICM_2026_01_simpl_publ_4.setVisible(true);
+lyr_Limites_estados_simpl_0.setVisible(true);lyr_Acidentes_BR_Pontos_publi_1.setVisible(false);lyr_Acidentes_BR_contagem_simpl_publi_2.setVisible(true);lyr_Rodovia_base_simplificada_publi_3.setVisible(true);lyr_ICM_2026_01_simpl_publ_4.setVisible(false);
 var layersList = [group_Publicaao_nacional];
 lyr_Limites_estados_simpl_0.set('fieldAliases', {'fid': 'fid', 'CD_UF': 'CD_UF', 'NM_UF': 'NM_UF', 'SIGLA_UF': 'SIGLA_UF', 'CD_REGIA': 'CD_REGIA', 'NM_REGIA': 'NM_REGIA', 'SIGLA_RG': 'SIGLA_RG', 'AREA_KM2': 'AREA_KM2', });
 lyr_Acidentes_BR_Pontos_publi_1.set('fieldAliases', {'fid': 'fid', 'Data': 'Data', 'BR': 'BR', 'km': 'km', 'Município': 'Município', 'Causa Acidente': 'Causa Acidente', 'Fase do dia': 'Fase do dia', 'Clima': 'Clima', 'Tipo de pista': 'Tipo de pista', 'Traçado': 'Traçado', 'Mortos': 'Mortos', 'Feridos leves': 'Feridos leves', 'Feridos Graves': 'Feridos Graves', 'Veículos': 'Veículos', 'Rodovia': 'Rodovia', 'UF': 'UF', 'UPS': 'UPS', });
