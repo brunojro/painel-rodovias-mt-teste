@@ -766,7 +766,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_Acidentes_BR_Pontos_publi_1rule0_eval_expression(context) {
+function exp_ACIDENTES_1rule0_eval_expression(context) {
     // mortos = 0
 
     var feature = context.feature;
